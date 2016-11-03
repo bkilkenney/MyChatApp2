@@ -6,9 +6,10 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using ChatApp.Models;
 using MyChatApp2.Models;
 
-namespace MyChatApp2.Controllers
+namespace ChatApp.Controllers
 {
     [Authorize]
     public class ManageController : Controller
@@ -32,9 +33,9 @@ namespace MyChatApp2.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -333,7 +334,7 @@ namespace MyChatApp2.Controllers
             base.Dispose(disposing);
         }
 
-#region Helpers
+        #region Helpers
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
 
@@ -384,6 +385,6 @@ namespace MyChatApp2.Controllers
             Error
         }
 
-#endregion
+        #endregion
     }
 }

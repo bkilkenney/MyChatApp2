@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using MyChatApp2.Models;
+using ChatApp;
+using ChatApp.Models;
 
 namespace MyChatApp2
 {
@@ -58,11 +60,11 @@ namespace MyChatApp2
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "324231521408-afhsl74ev47cqfgk39jljel8c57975ln.apps.googleusercontent.com",
+                ClientSecret = "VC_0HGCcd6UK0nLUxzdVwKxS"
+            });
         }
     }
 }
