@@ -12,6 +12,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace ChatApp.Controllers
 {
+    [RequireHttps]
     public class ChatsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();

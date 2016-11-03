@@ -94,3 +94,6 @@ C:\Users\bkilkenney\Documents\Visual Studio 2015\Projects\MyChatApp2\MyChatApp2\
 C:\Users\bkilkenney\Documents\Visual Studio 2015\Projects\MyChatApp2\MyChatApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\bkilkenney\Documents\Visual Studio 2015\Projects\MyChatApp2\MyChatApp2\obj\Debug\MyChatApp2.dll
 C:\Users\bkilkenney\Documents\Visual Studio 2015\Projects\MyChatApp2\MyChatApp2\obj\Debug\MyChatApp2.pdb
+C:\Users\bkilkenney\Documents\Visual Studio 2015\Projects\MyChatApp2\MyChatApp2\obj\Debug\MyChatApp2.Migrations.InitialCreate.resources
+C:\Users\bkilkenney\Documents\Visual Studio 2015\Projects\MyChatApp2\MyChatApp2\obj\Debug\MyChatApp2.csproj.GenerateResource.Cache
+C:\Users\bkilkenney\Documents\Visual Studio 2015\Projects\MyChatApp2\MyChatApp2\obj\Debug\MyChatApp2.Migrations.FirstMigration.resources
